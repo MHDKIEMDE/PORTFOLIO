@@ -16,12 +16,12 @@
 <body>
     <div class="contener">
         <header>
-            <nav class="navbar navbar-expand-md bg-success">
+            <nav class="navbar navbar-expand-lg bg-success ">
                 <div class="container-fluid">
-                    <a class="navbar-brand " href="#"><img src="./Images/logo.jpeg" class="img-thumbnail"
-                            alt="logo de l'auf"></a>
-                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <img class="navbar-brand img-thumbnail" src="./Images/logo.jpeg" alt="logo du site">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
@@ -47,7 +47,7 @@
                 </div>
             </nav>
         </header>
-        <main class="image-du-fond p-4" >
+        <main class="image-du-fond p-4">
             <div class="text-center">
                 <div class="welcome">
                     <h1>CONTACT</h1>
@@ -97,16 +97,18 @@
                                 <option>Supérieur </option>
                             </select>
                         </div>
-                        <div class="col-2 p-3">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="gridCheck">
-                                <label class="form-check-label" for="gridCheck">
-                                    Check me out
-                                </label>
+                        <div class="row justify-content-center g-3 p-3">
+                            <div class="col-md-2">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                        Check me out
+                                    </label>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-4 g-3 p-3">
-                            <button type="submit" class="btn btn-primary">Connexion</button>
+                            <div class="col-md-2">
+                                <button type="submit" class="btn btn-primary">Connexion</button>
+                            </div>
                         </div>
                     </form>
                 </fieldset>
